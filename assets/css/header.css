@@ -2,6 +2,7 @@
 header{
     width: 100% !important;
     background-color: #d9d9d9 !important;
+    background-image: url('../img/header_bg.jpg') !important;
     padding-inline: 30px;
     display: grid !important;
     grid-template-columns: 1fr 1fr 1fr;
@@ -12,7 +13,7 @@ header{
 }
 
 header > div:not(.img-container){
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-shadow: rgba(99, 99, 99, 0.539) 0px 2px 8px 0px;
 }
 .img-container > img{
     width: 12rem;
@@ -44,19 +45,24 @@ header > div.card > h3{
     background-clip: text;
     color: transparent;
     text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+    font-size: 60px;
 }
 
 header ul.list-group > li{ 
   background: none;
   border: none;
+  background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255, 255, 255, 0.176) 0px 3px 3px;
+    font-weight: bold;
+    
 }
 
 
-header ul.list-group > li{
-    color: rgba(0,0,0,0.6);
-    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
-                     0px -5px 35px rgba(255,255,255,0.3);
-}
+
 
 header > div.domains-container{
     grid-column: 3 / span 1;
