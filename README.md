@@ -25,5 +25,5 @@ The repository contains the code for Ismail Ouahbi's personal website. The websi
 -**Contact: Information on how to contact Ismail for suggestions or inquiries.**
 
 <hr>
-### Copyright
+Copyright
 © 2023 Ismail Ouahbi. All rights reserved.
