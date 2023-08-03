@@ -11728,3 +11728,16 @@ html {
     left: -2vw;
   }
 }
+
+ /* Notifications part (using toasts component) */
+
+#toastContainer{
+  margin-top: 100px;
+  bottom: 20px;
+  
+ }
+
+
+
+
+
