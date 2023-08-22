@@ -53,23 +53,24 @@
     <div aria-live="polite" aria-atomic="true" class="bg-dark position-relative bd-example-toasts" id="toastContainer">
         <div class="toast-container p-3 top-50 start-50 translate-middle" id="toastPlacement" data-original-class="toast-container p-3">
          <!-- Then put toasts within -->
-  <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true" id="toast_">
     <div class="toast-header">
         <svg class="bd-placeholder-img rounded me-2" width="30" height="30" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#000"></rect></svg>
-      <strong class="me-auto">Dimensionality Reduction Techniques -part I-</strong>
+      <strong class="me-auto" id="article_title">...</strong>
       <small>
         <a
         class="btn btn-sm btn-primary"
-        href="https://medium.com/@ismailouahbi/dimensionality-reduction-techniques-part-i-e9b65ba8056d"
-        rel="noopener noreferrer" 
+        href="#"
+        rel="noopener noreferrer"
+        id="article_link"
 
         >read</a
       >
     </small>
       <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
     </div>
-    <div class="toast-body">
-        In my previous article, I described how visualpython...
+    <div class="toast-body" id="article_body">
+        ...
     </div>
   </div>
         </div>
@@ -473,6 +474,7 @@
     <!-- Bootstrap core JS-->
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
 
 
 </body>
